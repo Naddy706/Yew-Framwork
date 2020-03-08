@@ -1,0 +1,1 @@
+{"rustc":1804583401712241248,"features":"[\"default\", \"std\"]","target":11648810911822059410,"profile":2574335274271406459,"path":1819171979853104593,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"wasm32-unknown-unknown/release/.fingerprint/bytes-81b09b638d347ccb/dep-lib-bytes-81b09b638d347ccb"}}],"rustflags":[],"metadata":11501112221997671841}
