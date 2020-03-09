@@ -30,8 +30,8 @@ impl Component for Navbar {
       <div class="container">
         <div class="row">
           <ul class="top-menu">
-            <li class=""><a href="#">{"Questions"}</a></li>
-            <li><a href="#">{"Videos"}</a></li>
+            <li class=""><a href="/">{"Questions"}</a></li>
+            <li><a href="/about">{"About"}</a></li>
           </ul>
         </div>
       </div>
@@ -42,8 +42,8 @@ impl Component for Navbar {
       </div>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#">{"Login"}</a></li>
-          <li><a href="#">{"Register"}</a></li>
+          <li class="menu-active"><a href="/login">{"Login"}</a></li>
+          <li><a href="/register">{"Register"}</a></li>
         </ul>
       </nav>
     </div>

@@ -123,7 +123,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.__wbindgen_closure_wrapper201 = exports.__wbindgen_throw = exports.__wbindgen_debug_string = exports.__wbindgen_string_get = exports.__wbg_set_a6eff7b20941127b = exports.__wbg_global_8efdae4f126ac8b4 = exports.__wbg_window_db757fdea9443777 = exports.__wbg_self_69a78003cf074413 = exports.__wbg_globalThis_eb9027a878db64ad = exports.__wbg_new_fe8db0c1c4a81234 = exports.__wbg_newnoargs_4f6527054d7f1f1d = exports.__wbg_call_183c0b733b35a027 = exports.__wbg_removeChild_d6a17858e72dadca = exports.__wbg_insertBefore_cfde74421840f007 = exports.__wbg_appendChild_9ff018e3b91d6e6b = exports.__wbg_nodeValue_244a208c8596e503 = exports.__wbg_nextSibling_36f718775c04bd5a = exports.__wbg_lastChild_648f60a4ed85e31b = exports.__wbg_setAttribute_8fa869e4a7209183 = exports.__wbg_removeAttribute_a9581c77eacdef57 = exports.__wbg_namespaceURI_a1c74e4138f60db3 = exports.__wbg_state_d3797c9450dfb4f5 = exports.__wbg_instanceof_PopStateEvent_a303b4828c38a5fa = exports.__wbg_hash_8e49dca4ffac82dd = exports.__wbg_search_1af4deece05fb60e = exports.__wbg_pathname_3499d165627ef298 = exports.__wbg_replaceState_7245e78872936b36 = exports.__wbg_pushState_dfd7b08cb8b2ee99 = exports.__wbg_state_922c3568008d1ce6 = exports.__wbg_value_663d02d42e956b7b = exports.__wbg_type_95c322b17fbd6962 = exports.__wbg_checked_1935800edc06909c = exports.__wbg_instanceof_HtmlInputElement_4d332a28ab7863fb = exports.__wbg_removeEventListener_bc884fbb2911bd7b = exports.__wbg_addEventListener_095450642c0bb293 = exports.__wbg_value_55805ca75f679bbd = exports.__wbg_instanceof_HtmlTextAreaElement_ac8342fd3f12e7df = exports.__wbg_querySelector_10c106d76a42ab14 = exports.__wbg_createTextNode_0f0e50dff3678aba = exports.__wbg_createElementNS_9802e23922dd912b = exports.__wbg_createElement_d1b8191d1ca1103b = exports.__wbg_history_1189c3a9e284c8c1 = exports.__wbg_location_71ee6c222f3effa4 = exports.__wbg_document_f023a2b0d5b3d060 = exports.__wbg_instanceof_Window_04bba8b54ef81db0 = exports.__wbg_error_4bb6c2a97407129a = exports.__wbg_stack_558ba5917b466edd = exports.__wbg_new_59cb74e423758ede = exports.__wbindgen_is_undefined = exports.__wbindgen_string_new = exports.__wbindgen_object_clone_ref = exports.__wbindgen_cb_drop = exports.__wbindgen_object_drop_ref = exports.run = exports.default = void 0;
+exports.__wbindgen_closure_wrapper328 = exports.__wbindgen_throw = exports.__wbindgen_debug_string = exports.__wbindgen_string_get = exports.__wbg_set_a6eff7b20941127b = exports.__wbg_global_8efdae4f126ac8b4 = exports.__wbg_window_db757fdea9443777 = exports.__wbg_self_69a78003cf074413 = exports.__wbg_globalThis_eb9027a878db64ad = exports.__wbg_new_fe8db0c1c4a81234 = exports.__wbg_newnoargs_4f6527054d7f1f1d = exports.__wbg_call_183c0b733b35a027 = exports.__wbg_removeChild_d6a17858e72dadca = exports.__wbg_insertBefore_cfde74421840f007 = exports.__wbg_appendChild_9ff018e3b91d6e6b = exports.__wbg_nodeValue_244a208c8596e503 = exports.__wbg_nextSibling_36f718775c04bd5a = exports.__wbg_lastChild_648f60a4ed85e31b = exports.__wbg_setAttribute_8fa869e4a7209183 = exports.__wbg_removeAttribute_a9581c77eacdef57 = exports.__wbg_namespaceURI_a1c74e4138f60db3 = exports.__wbg_state_d3797c9450dfb4f5 = exports.__wbg_instanceof_PopStateEvent_a303b4828c38a5fa = exports.__wbg_hash_8e49dca4ffac82dd = exports.__wbg_search_1af4deece05fb60e = exports.__wbg_pathname_3499d165627ef298 = exports.__wbg_replaceState_7245e78872936b36 = exports.__wbg_pushState_dfd7b08cb8b2ee99 = exports.__wbg_state_922c3568008d1ce6 = exports.__wbg_value_663d02d42e956b7b = exports.__wbg_type_95c322b17fbd6962 = exports.__wbg_checked_1935800edc06909c = exports.__wbg_instanceof_HtmlInputElement_4d332a28ab7863fb = exports.__wbg_removeEventListener_bc884fbb2911bd7b = exports.__wbg_addEventListener_095450642c0bb293 = exports.__wbg_value_55805ca75f679bbd = exports.__wbg_instanceof_HtmlTextAreaElement_ac8342fd3f12e7df = exports.__wbg_querySelector_10c106d76a42ab14 = exports.__wbg_createTextNode_0f0e50dff3678aba = exports.__wbg_createElementNS_9802e23922dd912b = exports.__wbg_createElement_d1b8191d1ca1103b = exports.__wbg_history_1189c3a9e284c8c1 = exports.__wbg_location_71ee6c222f3effa4 = exports.__wbg_document_f023a2b0d5b3d060 = exports.__wbg_instanceof_Window_04bba8b54ef81db0 = exports.__wbg_error_4bb6c2a97407129a = exports.__wbg_stack_558ba5917b466edd = exports.__wbg_new_59cb74e423758ede = exports.__wbindgen_is_undefined = exports.__wbindgen_string_new = exports.__wbindgen_object_clone_ref = exports.__wbindgen_cb_drop = exports.__wbindgen_object_drop_ref = exports.run = exports.default = void 0;
 
 var _yew_parcel_bg = _interopRequireDefault(require("./pkg/yew_parcel_bg.wasm"));
 
@@ -237,8 +237,8 @@ var __wbindgen_debug_string = _yew_parcel_bg.default.__wbindgen_debug_string;
 exports.__wbindgen_debug_string = __wbindgen_debug_string;
 var __wbindgen_throw = _yew_parcel_bg.default.__wbindgen_throw;
 exports.__wbindgen_throw = __wbindgen_throw;
-var __wbindgen_closure_wrapper201 = _yew_parcel_bg.default.__wbindgen_closure_wrapper201;
-exports.__wbindgen_closure_wrapper201 = __wbindgen_closure_wrapper201;
+var __wbindgen_closure_wrapper328 = _yew_parcel_bg.default.__wbindgen_closure_wrapper328;
+exports.__wbindgen_closure_wrapper328 = __wbindgen_closure_wrapper328;
 },{"./pkg/yew_parcel_bg.wasm":"crate/pkg/yew_parcel_bg.wasm"}],"app/index.ts":[function(require,module,exports) {
 "use strict";
 
@@ -283,7 +283,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50520" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51137" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -1540,7 +1540,7 @@ exports.callbackify = callbackify;
 
 },{}],"node_modules/parcel-plugin-wasm.rs/wasm-loader.js":[function(require,module,exports) {
 var global = arguments[3];
-var __dirname = "/Users/nadirhussain/Desktop/pistwasm/node_modules/parcel-plugin-wasm.rs";
+var __dirname = "/Users/nadirhussain/Documents/GitHub/Yew-Framwork/node_modules/parcel-plugin-wasm.rs";
 var wasm;const __exports = {};
 
 const heap = new Array(32).fill(undefined);
@@ -2138,8 +2138,8 @@ __exports.__wbindgen_throw = function(arg0, arg1) {
     throw new Error(getStringFromWasm0(arg0, arg1));
 };
 
-__exports.__wbindgen_closure_wrapper201 = function(arg0, arg1, arg2) {
-    var ret = makeMutClosure(arg0, arg1, 112, __wbg_adapter_18);
+__exports.__wbindgen_closure_wrapper328 = function(arg0, arg1, arg2) {
+    var ret = makeMutClosure(arg0, arg1, 220, __wbg_adapter_18);
     return addHeapObject(ret);
 };
 

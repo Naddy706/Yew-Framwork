@@ -8,6 +8,17 @@ use yew_router::{prelude::*, Switch, switch::Permissive , route::Route};
 #[path = "home.rs"] mod home;
 use self::home::Home;
 
+#[path = "about.rs"] mod about;
+use self::about::About;
+
+
+#[path = "register.rs"] mod register;
+use self::register::Register;
+
+
+#[path = "login.rs"] mod login;
+use self::login::Login;
+
 
 
 pub struct App;
@@ -17,10 +28,12 @@ pub struct App;
 pub enum AppRouter {
     #[to= "/!"]
     RootPath,
-    #[to= "/hello!"]
-    HelloPath,
-    #[to= "/awasome!"]
-    AwasomePath,
+    #[to= "/about"]
+    AboutPath,
+    #[to= "/register"]
+    RegisterPath,
+    #[to= "/login"]
+    LoginPath,
     #[to = "/page-not-found"]
     PageNotFound(Permissive<String>),
 }
@@ -44,8 +57,9 @@ impl Component for App {
                     render = Router::render(|switch: AppRouter | {
                         match switch {
                             AppRouter::RootPath => html!{<Home/>},
-                            AppRouter::HelloPath => html!{<h2>{"Hello world"}</h2>},
-                            AppRouter::AwasomePath => html!{<h2>{"My awesome Yew with Yew-Router and Parcel application!"}</h2>},
+                            AppRouter::AboutPath => html!{<About/>},
+                            AppRouter::RegisterPath => html!{<Register/>},
+                            AppRouter::LoginPath => html!{<Login/>},
                             AppRouter::PageNotFound(Permissive(None)) => html!{"Page not found"},
                             AppRouter::PageNotFound(Permissive(Some(missed_route))) => html!{format!("Page '{}' not found", missed_route)}
                         }
